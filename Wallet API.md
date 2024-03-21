@@ -3,7 +3,7 @@
 The purpose of this API is to help the user pay with their crypto currency using their 3040Crypto card. Our biggest draw back is the speed at which our company successfully completes the requests of our users. With this API, our users will be able to pay using their crypto in a similar way the debit card does. This API will get a request from the company our customer is at buying their needs and will return with the success or failure of the request to the company and the customer.
 
 ### Endpoints and parameters
-[https://3040CryptoWallet.org/wallet?Customer_ID=1234567&amount=100.05&ID=1234567](https://3040CryptoWallet.org/wallet?Customer_ID=1234567&amount=100.05&ID=1234567)
+[https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=100.05&ID=1234567](https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=100.05&ID=1234567)
 
 * Customer_ID(int): Customer's ID. Required.
 * Amount(float): Amount needed to be paid. Required.
