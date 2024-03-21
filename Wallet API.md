@@ -5,10 +5,10 @@ The 3040Crypto Wallet API is a way to change how users interact with cryptocurre
 At the same time, our API acts as a bridge between the digital currency world and traditional commerce, enabling instant conversion and processing of cryptocurrency transactions. The ultimate goal is to provide a user-friendly, secure and efficient trading experience.
 
 ### Endpoints and parameters
-[https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=100.05&PIN=0000](https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=100.05&PIN=0000)
+[https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=30&PIN=0000](https://3040CryptoWallet.org/wallet?Customer_ID=1234567&Amount=30&PIN=0000)
 
 * Customer_ID(int): Customer's ID. Required.
-* Amount(float): Amount needed to be paid. Required.
+* Amount(float): Amount needed to be paid in bitcoins. Required.
 * PIN(int): Security pin the user enters for the validity of the transaction. Required.
 
 ### Resources
@@ -16,7 +16,7 @@ At the same time, our API acts as a bridge between the digital currency world an
 {
     "Transaction_Info":[
         {
-            "Amount": "100.05",
+            "Amount": "30",
             "Success": "Transaction Failed",
             "Reference": "R2C415461FG2"
         }
@@ -24,7 +24,7 @@ At the same time, our API acts as a bridge between the digital currency world an
 }
 ```
 
-* Amount(float): Amount paid to the company.
+* Amount(float): Amount paid to the company in bitcoins.
 * Success(string): Success of the transaction.
 * Reference(string): reference to the transaction if successful.
 
@@ -35,7 +35,7 @@ At the same time, our API acts as a bridge between the digital currency world an
     "Customer_Info":[
         {
             "Customer_ID": "1234567",
-            "Amount": "100.05",
+            "Amount": "30",
             "PIN": "0000"
         }
     ]
@@ -46,7 +46,7 @@ At the same time, our API acts as a bridge between the digital currency world an
 {
     "Transaction_Info":[
         {
-            "Amount": "100.05",
+            "Amount": "30",
             "Success": "Transaction Failed",
             "Reference": "R2C415461FG2"
         }
