@@ -27,7 +27,7 @@ The purpose of this API is to help the user pay with their crypto currency using
 * Reference(string): reference to the transaction if successful.
 
 ### Sample request and sample response
-Request:
+#### Request:
 ```json
 {
     "Customer_Info":[
@@ -39,7 +39,7 @@ Request:
     ]
 }
 ```
-Response:
+#### Response:
 ```json
 {
     "Transaction_Info":[
